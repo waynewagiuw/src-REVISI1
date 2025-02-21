@@ -1,0 +1,4 @@
+- adjust home
+- tambah modul full layar gambar
+- tambah notifikasi user
+- adjust submission
