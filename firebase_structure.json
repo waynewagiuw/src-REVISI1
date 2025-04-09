@@ -1,0 +1,178 @@
+{
+  "Transactions": {
+    "Nzh9piSPzSfIunpLTlR1ru5TpdH3": {
+      "2025-02-26T11:42:08_730Z": {
+        "gp": -4,
+        "points": 2
+      },
+      "2025-02-26T11:42:23_947Z": {
+        "gp": -8,
+        "points": 4
+      },
+      "2025-02-26T11:42:35_169Z": {
+        "gp": -12,
+        "points": 6
+      }
+    },
+    "YOTFgGtOVZQSxKCWdGQFzZ1G3923": {
+      "2025-02-26T11:44:55_848Z": {
+        "gp": -4,
+        "points": 2
+      }
+    }
+  },
+  "admins": {
+    "admin1": {
+      "role": "admin",
+      "uid": "admin1",
+      "username": "staffvdonly"
+    },
+    "admin2": {
+      "role": "admin",
+      "uid": "admin2",
+      "username": "tes"
+    }
+  },
+  "missions": {
+    "-OJnNtHNDsB1geYCI81j": {
+      "description": "",
+      "points": "12",
+      "quota": "4",
+      "status": "2/4",
+      "task": "tes",
+      "time": ""
+    },
+    "-OJnO0-NhIRVelCeEucI": {
+      "description": "",
+      "points": "4",
+      "quota": "5",
+      "status": "2/5",
+      "task": "dua2",
+      "time": ""
+    }
+  },
+  "notifications": {
+    "Wagiuw, Wayne Gilbert": {
+      "-OJnNtHNDsB1geYCI81j": {
+        "date": "2025-02-23T15:56:16.222Z",
+        "missionId": "-OJnNtHNDsB1geYCI81j",
+        "task": "tes",
+        "userName": "Wagiuw, Wayne Gilbert"
+      },
+      "-OJnO0-NhIRVelCeEucI": {
+        "date": "2025-02-24T07:58:37.334Z",
+        "missionId": "-OJnO0-NhIRVelCeEucI",
+        "task": "dua2",
+        "userName": "Wagiuw, Wayne Gilbert"
+      }
+    },
+    "tes": {
+      "-OJnNtHNDsB1geYCI81j": {
+        "date": "2025-02-25T02:53:43.687Z",
+        "missionId": "-OJnNtHNDsB1geYCI81j",
+        "task": "tes",
+        "userName": "tes"
+      },
+      "-OJnO0-NhIRVelCeEucI": {
+        "date": "2025-02-24T07:49:36.946Z",
+        "missionId": "-OJnO0-NhIRVelCeEucI",
+        "task": "dua2",
+        "userName": "tes"
+      }
+    }
+  },
+  "submissions": {
+    "Wagiuw, Wayne Gilbert": {
+      "-OJnNtHNDsB1geYCI81j": {
+        "date": "2025-02-23T15:56:15.952Z",
+        "imageBefore": "file:///data/user/0/com.awesomeproject/cache/rn_image_picker_lib_temp_f1fccd7a-a096-4c07-9240-6f77f0d882cd.jpg",
+        "missionId": "-OJnNtHNDsB1geYCI81j",
+        "progress": "Gagal",
+        "subpoints": 0,
+        "task": "tes",
+        "userName": "Wagiuw, Wayne Gilbert"
+      },
+      "-OJnO0-NhIRVelCeEucI": {
+        "date": "2025-02-24T07:58:37.014Z",
+        "imageSelfie": "file:///data/user/0/com.awesomeproject/cache/rn_image_picker_lib_temp_534346e0-3b68-4db5-a75d-df310c443be0.jpg",
+        "missionId": "-OJnO0-NhIRVelCeEucI",
+        "progress": "Berhasil",
+        "subpoints": "4",
+        "task": "dua2",
+        "userName": "Wagiuw, Wayne Gilbert"
+      }
+    },
+    "tes": {
+      "-OJnNtHNDsB1geYCI81j": {
+        "date": "2025-02-25T02:53:33.491Z",
+        "imageSelfie": "file:///data/user/0/com.awesomeproject/cache/rn_image_picker_lib_temp_3b8d6862-34ca-44c1-b121-cca3cb313fd8.jpg",
+        "missionId": "-OJnNtHNDsB1geYCI81j",
+        "progress": "Berhasil",
+        "subpoints": "12",
+        "task": "tes",
+        "userName": "tes"
+      },
+      "-OJnO0-NhIRVelCeEucI": {
+        "date": "2025-02-24T07:49:36.186Z",
+        "imageAfter": "file:///data/user/0/com.awesomeproject/cache/rn_image_picker_lib_temp_6c21758d-0701-4ffa-8057-129db521169a.jpg",
+        "missionId": "-OJnO0-NhIRVelCeEucI",
+        "progress": "Berhasil",
+        "subpoints": "4",
+        "task": "dua2",
+        "userName": "tes"
+      }
+    }
+  },
+  "userMissions": {
+    "Wagiuw, Wayne Gilbert": {
+      "-OJnNtHNDsB1geYCI81j": {
+        "isAccepted": true,
+        "isSubmitted": false,
+        "missionId": "-OJnNtHNDsB1geYCI81j"
+      },
+      "-OJnO0-NhIRVelCeEucI": {
+        "isAccepted": true,
+        "isSubmitted": false,
+        "missionId": "-OJnO0-NhIRVelCeEucI"
+      }
+    },
+    "tes": {
+      "-OJnNtHNDsB1geYCI81j": {
+        "isAccepted": true,
+        "isSubmitted": false,
+        "missionId": "-OJnNtHNDsB1geYCI81j"
+      },
+      "-OJnO0-NhIRVelCeEucI": {
+        "isAccepted": true,
+        "isSubmitted": false,
+        "missionId": "-OJnO0-NhIRVelCeEucI"
+      }
+    }
+  },
+  "users": {
+    "BKaPT4oLEnYhvVgREBWaKlehBbs1": {
+      "email": "tes3@ac.ac",
+      "username": "Alber, Einstein",
+      "userpoints": 0,
+      "vouchers": 0
+    },
+    "Nzh9piSPzSfIunpLTlR1ru5TpdH3": {
+      "email": "tes@ac.ac",
+      "username": "Wagiuw, Wayne Gilbert",
+      "userpoints": 64,
+      "vouchers": 12
+    },
+    "YOTFgGtOVZQSxKCWdGQFzZ1G3923": {
+      "email": "tes1@ac.ac",
+      "username": "tes",
+      "userpoints": 12,
+      "vouchers": 9
+    },
+    "pMSHjDx6iecK1ND1nzO886AUdcj1": {
+      "email": "tes2@ac.ac",
+      "username": "wawan",
+      "userpoints": 0,
+      "vouchers": "0"
+    }
+  }
+}
