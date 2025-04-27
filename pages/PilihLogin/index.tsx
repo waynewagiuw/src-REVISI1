@@ -1,0 +1,130 @@
+import { StatusBar, StyleSheet, Text, View, Platform, ScrollView } from 'react-native';
+import React, { useState } from 'react';
+import { Button, Gap, } from '../../components';
+import { showMessage } from 'react-native-flash-message';
+import Logo from '../../assets/icon/Eco.svg';
+
+const PilihLogin = ({ navigation }) => {
+    const handleSuperAdmin = () => {
+        navigation.navigate('LoginSuperAdmin');
+    }
+    const handleAdmin = () => {
+        navigation.navigate('LoginAdmin');
+    }
+    const handleUser = () => {
+        navigation.navigate('Login');
+    }
+   
+    return (
+        <View style={styles.container}>
+            <StatusBar
+                barStyle="dark-content"
+                translucent={true}
+                backgroundColor="#0A3832" />
+            <View style={styles.header}>
+                <Logo width={50} height={50} marginTop={'60%'} />
+                <Text style={styles.text}>GreenPoin</Text>
+            </View>
+            <View style={styles.contentWrapper}>
+                <Gap height={26} />
+                <View style={styles.line} />
+                <Gap height={10} />
+                <Text style={styles.login}>Welcome</Text>
+                <Gap height={80} />
+                <Button
+                    label="Admin"
+                    backgroundColor='#159EA8'
+                    textColor="#FFFFFF"
+                    onPress={() => {
+                        console.log("Super Admin SignIn");
+                        handleSuperAdmin();
+                    }}
+                />
+                <Gap height={12} />
+                <Button
+                    label="Staf"
+                    backgroundColor='#135D66'
+                    textColor="#FFFFFF"
+                    onPress={() => {
+                        console.log("Admin SignIn");
+                        handleAdmin();
+                    }}
+                />
+                <Gap height={12} />
+                <Button
+                    label="Mahasiswa"
+                    backgroundColor="#0A3832"
+                    textColor="#FFFFFF"
+                    onPress={() => {
+                        console.log("User SignIn");
+                        handleUser();
+                    }}
+                />
+                <Gap height={64} />
+                <Text style={styles.snk}>Dengan GreenPoin, kelola poin Sabath</Text>
+                <Text style={styles.blue}>kurangi poin Sabat pakai GP</Text>
+
+            </View>
+        </View>
+    );
+};
+
+export default PilihLogin;
+
+const styles = StyleSheet.create({
+    container: {
+        backgroundColor: '#0A3832',
+        flex: 1,
+        paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
+    },
+    header: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    text: {
+        marginTop: '63%',
+        marginLeft: 5,
+        fontSize: 26,
+        color: 'white',
+        fontFamily: 'Poppins-Medium',
+    },
+    contentWrapper: {
+        backgroundColor: '#FFFFFF',
+        borderRadius: 20,
+        paddingHorizontal: 24,
+        width: 300,
+        height: 500,
+        marginTop: 40,
+        alignSelf: 'center',
+    },
+    line: {
+        borderWidth: 2,
+        borderRadius: 8,
+        width: 70,
+        borderColor: '#ABABAB',
+        alignSelf: 'center',
+    },
+    login: {
+        fontSize: 26,
+        alignSelf: 'center',
+        fontFamily: 'Poppins-Medium',
+        color: 'black',
+        fontWeight: 'bold',
+    },
+    snk: {
+        fontFamily: 'Poppins-Medium',
+        fontSize: 11,
+        textAlign: 'center',
+        color: 'black',
+        marginBottom: -3,
+    },
+    blue: {
+        color: '#201658',
+        textDecorationLine: 'underline',
+        fontWeight: 'bold',
+        fontFamily: 'Poppins-Medium',
+        fontSize: 11,
+        textAlign: 'center',
+    },
+});
